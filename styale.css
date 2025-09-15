@@ -1,0 +1,111 @@
+/* style.css */
+
+/* General body settings */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #004d40;
+  padding: 10px 0;
+  margin-bottom: 25px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #cddc39;
+}
+
+/* Headings */
+h1, h2 {
+  color: #004d40;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+  max-width: 800px;
+  margin-bottom: 15px;
+}
+
+/* Form container */
+form {
+  max-width: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Form labels */
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: bold;
+}
+
+/* Form inputs & selects */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+/* Textarea height */
+textarea {
+  min-height: 80px;
+}
+
+/* Buttons */
+button {
+  background-color: #004d40;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00796b;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  body {
+    padding: 10px;
+  }
+}

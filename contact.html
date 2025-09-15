@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Rajpipla Heritage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #f4f9f9, #e0f7fa);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #00695c;
+      padding: 15px;
+      text-align: center;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 650px;
+      background: white;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+    }
+
+    h2 {
+      text-align: center;
+      color: #004d40;
+      margin-bottom: 25px;
+    }
+
+    .contact-info {
+      margin-bottom: 25px;
+      line-height: 1.8;
+      color: #333;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 6px;
+      color: #333;
+    }
+
+    textarea, input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #00796b;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #004d40;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="registration.html">Registration</a>
+    <a href="booking.html">Travel Booking</a>
+    <a href="book-guide.html">Book a Guide</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="feedback.html">Feedback</a>
+  </header>
+
+  <!-- Contact Section -->
+  <div class="container">
+    <h2>Contact Us</h2>
+
+    <div class="contact-info">
+      <p><strong>Email:</strong> info@rajpiplaheritage.com</p>
+      <p><strong>Phone:</strong> +91 2642 244355</p>
+      <p><strong>Address:</strong> Rajpipla, District Bharuch, Gujarat, 393145</p>
+    </div>
+
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="query">Your Query:</label>
+      <textarea id="query" name="query" rows="5" placeholder="Type your message here..." required></textarea>
+
+      <button type="submit">Send Query</button>
+    </form>
+  </div>
+
+</body>
+</html>

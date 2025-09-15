@@ -1,0 +1,142 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Rajpipla Heritage</title>
+  <style>
+    /* Reset default */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: hwb(213 65% 31% / 0.456);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navigation */
+    nav {
+      background: #2c3e50;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #f5f5f5;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    /* About Section */
+    .about-container {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .about-container h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .about-container p {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    /* Add Image with Text */
+    .about-flex {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .about-flex img {
+      flex: 1;
+      max-width: 450px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .about-text {
+      flex: 2;
+      font-size: 1.05rem;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #2c3e50;
+      color: white;
+      margin-top: 50px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .about-flex {
+        flex-direction: column;
+        text-align: center;
+      }
+      .about-flex img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="regiestration.html">Registration</a>
+    <a href="travel-booking.html">Travel Booking</a>
+    <a href="book-guide.html">Book a Guide</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="feedback.html">Feedback</a>
+  </nav>
+
+  <!-- About Section -->
+  <div class="about-container">
+    <h1>About Rajpipla Heritage</h1>
+    <p>Rajpipla, located in Gujarat, boasts historic palaces, breathtaking landscapes, and rich royal traditions. Known for its majestic architecture, heritage culture, and scenic beauty, Rajpipla is a destination where history meets nature.</p>
+
+    <div class="about-flex">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/f3/d7/c9/rajvant-palace-resort.jpg" alt="Rajpipla Palace">
+      
+      <div class="about-text">
+        <p>The region is famous for its royal palaces like the Rajvant Palace and heritage sites that echo the grandeur of princely states. Visitors can explore the historic monuments, temples, and nearby attractions like the Statue of Unity and Zarwani Waterfalls.</p>
+        <p>Through this portal, we aim to showcase the essence of Rajpipla's culture, history, and royal legacy, offering guided experiences and travel assistance for tourists worldwide.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Rajpipla Heritage Palace | Preserving History & Culture
+  </footer>
+
+</body>
+</html>
